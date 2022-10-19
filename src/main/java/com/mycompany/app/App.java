@@ -16,6 +16,18 @@ public class App {
     if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
     }
+    if (a != b || a != c || b != c) {
+      return "es un triangolo escaleno";
+    }
+    if ( 
+        ( floor(a) == a || floor(b) == b || floor(c) == c) 
+        &&
+        (Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(a, 2) || Math.pow(a, 2) + Math.pow(c, 2) == Math.pow(b, 2) || Math.pow(b, 2) + Math.pow(c, 2) == Math.pow(a, 2))
+      )
+    {
+      return "es un triangolo pitagorico";
+    }
+    
     return "error no es un triangulo";
   }
 
