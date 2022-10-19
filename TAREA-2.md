@@ -9,4 +9,4 @@ Cuando hayan completado la tarea agreguen los datos de su grupo en la tabla sigu
 
 | Grupo | Integrantes | URL REPO GITHUB |
 |-------|-------------|-----------------|
-| Profe | Eduardo Díaz | https://github.com/lnds/ci-lab-clase-5.git |
+| Profe | Cristian Bustamante | [https://github.com/lnds/ci-lab-clase-5.git](https://github.com/betonoma/ci-lab-clase-5) |
