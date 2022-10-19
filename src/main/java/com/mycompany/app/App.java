@@ -19,7 +19,7 @@ public class App {
     if ( 
         ( Math.floor(a) == a && Math.floor(b) == b && Math.floor(c) == c) 
         &&
-        (Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(a, 2) || Math.pow(a, 2) + Math.pow(c, 2) == Math.pow(b, 2) || Math.pow(b, 2) + Math.pow(c, 2) == Math.pow(a, 2))
+        (Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2) || Math.pow(a, 2) + Math.pow(c, 2) == Math.pow(b, 2) || Math.pow(b, 2) + Math.pow(c, 2) == Math.pow(a, 2))
       ){
       return "es un triangolo pitagorico";
     }
